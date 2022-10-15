@@ -11,7 +11,7 @@ describe("sum let two factors a and b", () => {
 describe("sum let two factors a and b failed", () => {
     it("should return failed", () => {
 
-        expect(app.sum(6, 6)).toBe(10);
+        expect(app.sum(6, 6)).toBe(12);
 
     })
 })
