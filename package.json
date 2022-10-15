@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "testing github action",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "jest src/app.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioni5/test.git"
+  },
+  "keywords": [],
+  "author": "ioni5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ioni5/test/issues"
+  },
+  "homepage": "https://github.com/ioni5/test#readme",
+  "devDependencies": {
+    "jest": "^29.2.0",
+    "supertest": "^6.3.0"
+  }
+}
